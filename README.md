@@ -38,7 +38,7 @@ python -m venv .venv
 2. Install dependencies.
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 3. Create a `.env` file in the project root.
