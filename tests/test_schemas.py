@@ -1,7 +1,7 @@
 import pytest
 from pydantic import ValidationError
 
-from src.schemas import ResumeAnalysis
+from backend.src.schemas import ResumeAnalysis
 
 
 def test_resume_analysis_accepts_valid_payload():

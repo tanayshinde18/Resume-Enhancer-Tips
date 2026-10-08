@@ -1,4 +1,4 @@
-from src.text_processing import clean_text, limit_text
+from backend.src.text_processing import clean_text, limit_text
 
 
 def test_clean_text_normalizes_whitespace():

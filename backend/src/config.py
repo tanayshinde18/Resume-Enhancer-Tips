@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_API_KEY = os.getenv("backend/src/GROQ_API_KEY", "")
 GROQ_MODEL_NAME = os.getenv("GROQ_MODEL_NAME", "openai/gpt-oss-20b")
 
 # Groq free-tier docs list openai/gpt-oss-20b at 8K TPM. These defaults keep

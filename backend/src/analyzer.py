@@ -1,7 +1,8 @@
-from src.chains import get_resume_suggestions
-from src.resume_parser import extract_text_from_resume
-from src.scraping import scrape_job_description
-from src.text_processing import clean_text, prepare_analysis_text
+from backend.src.chains import get_resume_suggestions
+from backend.src.resume_parser import extract_text_from_resume
+from backend.src.scraping import scrape_job_description
+from backend.src.text_processing import clean_text, prepare_analysis_text
+
 
 
 def analyze_resume(job_description: str, resume_file) -> dict:

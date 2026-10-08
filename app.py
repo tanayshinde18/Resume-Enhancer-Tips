@@ -1,5 +1,5 @@
 import streamlit as st
-from src.analyzer import analyze_resume_against_job_text, analyze_resume_against_job_url
+from backend.src.analyzer import analyze_resume_against_job_text, analyze_resume_against_job_url
 
 st.set_page_config(page_title="Resume Matcher AI", layout="centered")
 

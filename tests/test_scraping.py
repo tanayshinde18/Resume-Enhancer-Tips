@@ -1,4 +1,4 @@
-from src.scraping import is_valid_url, scrape_job_description
+from backend.src.scraping import is_valid_url, scrape_job_description
 
 
 def test_is_valid_url_accepts_http_and_https():

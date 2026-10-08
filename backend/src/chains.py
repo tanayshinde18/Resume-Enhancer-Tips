@@ -4,9 +4,11 @@ from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from pydantic import ValidationError
 
-from src.config import GROQ_API_KEY, GROQ_MODEL_NAME
-from src.schemas import ResumeAnalysis
+from backend.src.config import GROQ_API_KEY, GROQ_MODEL_NAME
+from backend.src.schemas import ResumeAnalysis
 
+# from config import GROQ_API_KEY, GROQ_MODEL_NAME
+# from schemas import ResumeAnalysis
 
 parser = JsonOutputParser(pydantic_object=ResumeAnalysis)
 
