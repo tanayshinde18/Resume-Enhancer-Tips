@@ -3,8 +3,8 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 
-from backend.src.text_processing import clean_text
-
+# from backend.src.text_processing import clean_text
+from src.text_processing import clean_text
 
 REQUEST_HEADERS = {
     "User-Agent": (

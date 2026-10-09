@@ -7,3 +7,5 @@ __pycache__/
 *.vscode/
 .codexignore
 .env.*
+frontend/.env
+backend/src/.env

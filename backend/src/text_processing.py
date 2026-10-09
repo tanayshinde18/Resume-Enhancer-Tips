@@ -1,5 +1,5 @@
-from backend.src.config import MAX_JOB_DESCRIPTION_CHARS, MAX_RESUME_CHARS
-
+#rom backend.src.config import MAX_JOB_DESCRIPTION_CHARS, MAX_RESUME_CHARS
+from src.config import MAX_JOB_DESCRIPTION_CHARS, MAX_RESUME_CHARS
 
 def clean_text(text: str) -> str:
     return " ".join((text or "").split())
