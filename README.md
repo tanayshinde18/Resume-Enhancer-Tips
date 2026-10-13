@@ -12,7 +12,7 @@ interactive interface.
 
 > **Project status:** Portfolio/demo project. Hosted deployments may
 > have limited availability, request capacity, or response times
-> depending on the hosting platform and AI provider.
+> depending on the hosting platform and AI provider. (Not hosted yet)
 
 ## Features
 
