@@ -1,6 +1,6 @@
 from io import BytesIO
 
-from src.analyzer import analyze_resume_against_job_text
+from backend.src.analyzer import analyze_resume_against_job_text
 
 
 def test_analyze_resume_against_job_text_rejects_empty_job_description():

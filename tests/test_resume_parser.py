@@ -2,7 +2,7 @@ from io import BytesIO
 
 import pymupdf
 
-from src.resume_parser import extract_text_from_resume
+from backend.src.resume_parser import extract_text_from_resume
 
 
 def test_extract_text_from_resume_reads_pdf_text():
