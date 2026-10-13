@@ -145,7 +145,7 @@ source .venv/bin/activate
 
 Install the backend dependencies:
 
-``` bash
+```bash
 pip install -r requirements.txt
 ```
 
