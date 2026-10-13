@@ -349,5 +349,3 @@ Built as an AI/ML and full-stack development showcase.
 
 
 # The project is still in development stage 
-Branch Information
-The test-changes branch contains the updated project architecture, with a React-based frontend and a FastAPI backend. The main branch retains the original, simpler Streamlit-based application. The updated frontend and backend implementation is currently maintained separately in test-changes while development and deployment preparations continue.
